@@ -102,3 +102,43 @@
 .feature-description{
     color: #8f8f8f;
 }
+
+/* <!-- Testimonials --> */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px
+}
+
+
