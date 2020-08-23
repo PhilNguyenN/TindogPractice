@@ -1,34 +1,37 @@
-/* ID SELECTED */
-#title{
-    background-color: #ff4c68;
-}
 
-
-
-/* Class SELECTED */
-.body{
+body{
     font-family: Montserrat;
+    text-align: center;
 }
 
+/* Color Section */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
 
 .heading{
     font-family: Montserrat;
     font-weight: bold;
-    color: white;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
-.container-fluid{
+#title .container-fluid{
     padding: 3% 15% 7%;
+    text-align: left;
+
 }
 
 /* Navigation Bar */
 
 .navbar{
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 4.5rem;
+   padding: 0 0 4.5rem;
 }
 
 
@@ -68,6 +71,7 @@
 
 /* Title Image */
 
+
 .dogphoto{
     transform: rotate(25deg);
     width: 60%;
@@ -80,14 +84,12 @@
 
 #features{
     font-family: Montserrat;
-    background-color: white;
     padding: 7% 15%;
     position: relative;
     z-index: 1;
 }
 
 .feature-box{
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -112,16 +114,14 @@
 /* <!-- Testimonials --> */
 
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
-    color: white;
 }
 
 .carousel-item{
     padding: 5% 15%;
 }
 
-h2{
+.testimonials-text{
     font-family: montserrat;
     font-size: 3rem;
     font-weight: bold;
@@ -138,7 +138,6 @@ h2{
 
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding: 3%;
 }
 
@@ -151,7 +150,6 @@ h2{
 
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column{
@@ -170,17 +168,9 @@ h2{
 
 /* <!-- Call to Action --> */
 #cta{
-    background-color: #ff4c68;
-    text-align: center;
-    font-family: montserrat;
-    color: white;
     padding: 7% 15% 3%;
 }
 
-.cta-title{
-    font-size: 3rem;
-    font-weight: bold;
-}
 
 .button-cta{
     font-family: Montserrat;
@@ -194,10 +184,7 @@ h2{
 /* <!-- Footer --> */
 
 #footer{
-    text-align: center;
-    background-color: white;
     padding: 7% 15%;
-    font-family: Montserrat;
     font-weight: bold;
     font-size: 0.5rem;
 }
@@ -209,4 +196,8 @@ h2{
 .footer-icon{
     margin: 20px 10px;    
     color: black;
+}
+
+.footer-icon:hover{
+    color: brown;
 }
