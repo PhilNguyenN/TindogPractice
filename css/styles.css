@@ -13,14 +13,14 @@
 
 .heading{
     font-family: Montserrat;
-    font-weight: 800;
+    font-weight: bold;
     color: white;
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -39,14 +39,14 @@
 }
 .nav-item{
     padding: 0px 18px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
 .nav-link{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-family: Montserrat;
-    font-weight: lighter;
+    font-weight: bold;
 }
 
 /* Download Button */
@@ -67,8 +67,10 @@
 /* Title Image */
 
 .dogphoto{
-    transform: rotate(30deg);
-    width: 50%;
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
 }
 
 
@@ -76,18 +78,20 @@
 
 #features{
     font-family: Montserrat;
+    background-color: white;
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box{
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon-features{
     color: #ef8172;
     margin-bottom: 1rem;
-    padding: 10% 5% 0% 5%;
 }
 
 .icon-features:hover{
@@ -141,4 +145,67 @@ h2{
     margin: 20px
 }
 
+/* Pricing Section */
 
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 991px){
+    #title{
+        text-align: center;
+    }
+    .dogphoto{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* <!-- Call to Action --> */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: montserrat;
+    color: white;
+    padding: 7% 15% 3%;
+}
+
+.cta-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.button-cta{
+    font-family: Montserrat;
+    font-weight: 600;
+    margin: 5% 2%;
+}
+.dl-cta-icon{
+    padding-right: 7px;
+}
+
+/* <!-- Footer --> */
+
+#footer{
+    text-align: center;
+    background-color: white;
+    margin: 7%;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 0.5rem;
+}
+.copyright{
+    margin-top: 1%;
+    color: gray;
+}
+
+.footer-icon{
+    
+    padding: 10px;
+    color: black;
+}
